@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 150%;
+}
+nav{
+    height: 80px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+    
+    
+}
+.hero{
+    background-image: linear-gradient(rgba(67, 30, 3, 0.9), rgba(67, 30, 3, 0.9)), url(cofee.jpg);
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content{
+    text-align: center;
+    padding: 200px;
+    color: #ffffff;
+    
+}
+.hero-content button{
+    border: none;
+    color: aliceblue;
+    background-color: saddlebrown;
+    font-size: larger;
+    padding: 0.6rem;
+
+} 
+
+.content{
+    background-color: red;
+    height: calc(100vh - 80px);
+    
+}
+  
+
